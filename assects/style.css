@@ -1,0 +1,273 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+.navbar{
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    height: 60px;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 1rem;
+    color: rgba(255, 255, 255, 1);
+    background-image:  linear-gradient(180deg, rgba(26, 21, 21, 0.41) 0%, rgba(42, 33, 33, 0) 100%);
+    background-blend-mode: color-burn;
+    backdrop-filter: blur(11px);
+}
+.navbar h1{
+   margin: 0;
+}
+.navbar ul {
+    display: flex;
+    padding-left: 10%;
+    list-style: none;
+    margin: 0px;
+
+}
+.navbar ul li{
+    padding: 10px 25px;
+}
+.navbar ul li:hover{
+    background-color: cadetblue;
+    border-radius: 2px;
+    height: 20px;
+}
+@media (max-width:678px){
+    .navbar ul li{
+        padding: 1px 6px;
+    }
+    }
+   
+.navbar .bx-menu{
+    font-size: 28px;
+}
+.navbar .right-contant{
+    display: flex;
+    margin-left: 5rem;
+}
+.top{
+    background-image: url(images/marvels-spiderman-miles-morales-4k\ 1.png);
+    height: 1358px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: 100% 100%;
+
+}
+.top-contant{
+padding: 5%;
+width: 60%;
+
+}
+.top h1{
+padding-top:;
+margin: 0;
+font-size: clamp(2rem, 1rem + 10vw ,4rem);
+font-weight: 550;
+margin-top: 40%;
+color: white;
+}
+
+.top-p{
+    color: white;
+    font-size: 24px;
+}
+.top button{
+    width: 350px;
+    height: 85px;
+    border-radius: 81px;
+    background-color: rgba(142, 142, 142, 0.47);
+    font-size: 30px;
+    color: white;
+}
+.top button:hover{
+    background-color: brown;
+}
+@media (max-width:968px) and (min-width:668px) {
+}
+@media (max-width:668px) {
+    .top h1{
+        margin-top: 150%;
+        font-size: clamp(1.7rem, 1rem + 10vw ,1rem);
+    }
+    .top{
+        background-size: auto; 
+        background-size: cover;
+    }
+    .top-p{
+        font-size: 20px;
+    }
+    .top-contant{
+        width: 80%;
+    }
+    .top button{
+        max-width: 175px;
+        max-height: 100px;
+        font-size: 20px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 20px;
+    }
+}
+.middle{
+    min-height: 50rem;
+    background-image: url(images/middle-bg.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -137px;
+}
+@media (max-width:678px){
+    .middle{
+      padding-bottom: 1rem;
+    }
+  }
+.middle h2{
+    text-align: center;
+    margin: 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 300;
+} 
+
+.middle-condainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+}    
+.button{
+    text-align: center;
+}
+.buttons{
+  text-align: center;
+  width: 200px;
+  height: 60px;
+  background-color: rgb(69, 94, 232);
+  border: none;
+  border-radius: 20px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.buttons:hover{
+    background-color: rgb(22, 79, 114);
+}
+@media (max-width:678px) {
+    .img1{
+       width: 100%;
+    }
+   
+}
+.last-section{
+    height: 820px;
+    background-image:linear-gradient(180deg, rgba(122, 122, 122, 0) 0%, rgba(0, 0, 0, 0.8) 100%), url(images/spiderman.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+@media (max-width:678px){
+   .last-section{
+    height: 400px;
+   }
+}
+.last-contant{
+    position: absolute;
+    bottom: 0;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 4%;
+}
+.last-contant h1{
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 4rem;
+   
+}
+.last-contant h3{
+    font-size: 2rem;
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+.last-contant h5{
+    font-size: 2rem;
+    font-weight: 100;
+}
+@media (max-width:668px){
+    .last-contant h1{
+        font-size: 2rem;
+    }
+    .last-contant h3{
+        font-size: 1.5rem;
+    }
+    .last-contant h5{
+        font-size: 1.5rem;
+    }
+} 
+.footer{
+    background-color: black;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    color: rgba(255, 255, 255, 1);
+}
+.footer-right{
+    width: 50%;
+    padding-top: 5rem;
+    padding-left: 6rem;
+    
+}
+@media (max-width:500px){
+    .footer-right{
+        padding-left: 2rem;
+    }
+}
+.footer-right h3{
+    font-size: 2rem;
+    font-weight: 300;
+}
+.footer-right p{
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+}
+.footer-left{
+    padding: 6rem;
+}
+.footer-left h2{
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+.footer .icons{
+   letter-spacing: 1rem;
+}
+.footer .icon{
+    width: 2rem;
+}
+.copyright{
+    text-align: center;
+    height: 20px;
+    bottom: 0;
+    margin-top: 0;
+    padding-top: 1rem;
+}
+.copy-footer{
+    background-color: black;
+    width: 100%;
+    min-height: 5rem;
+    color: rgba(255, 255, 255, 1);
+}
+.copy-footer p{
+    font-size: 1.2rem;
+}
+@media (max-width:678px){
+    .copy-footer{
+        height: 6rem;
+    }
+    .copy-footer p{
+        font-size: 1rem;
+    }
+}
+
