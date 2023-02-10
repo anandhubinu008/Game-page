@@ -14,6 +14,7 @@ body{
     background-image:  linear-gradient(180deg, rgba(26, 21, 21, 0.41) 0%, rgba(42, 33, 33, 0) 100%);
     background-blend-mode: color-burn;
     backdrop-filter: blur(11px);
+    z-index: 1;
 }
 .navbar h1{
    margin: 0;
@@ -119,6 +120,7 @@ color: white;
     background-position: center;
     margin-top: -137px;
     padding-bottom: 1.5rem;
+
 }
 @media (max-width:678px){
     .middle{
@@ -138,7 +140,7 @@ color: white;
 .middle-condainer{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }    
 .button{
     text-align: center;
@@ -160,6 +162,9 @@ color: white;
 @media (max-width:678px) {
     .img1{
        width: 100%;
+    }
+    .middle-condainer{
+        padding-left: 5%;
     }
    
 }
